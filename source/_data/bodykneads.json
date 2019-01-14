@@ -1,0 +1,67 @@
+{
+	"Services": [
+		{
+			"Service": "Human Care",
+			"Id": "human-massage",
+			"Url": "/human-care-services",
+			"Desc": "Massage, Taping, and Energy healing to help you feel and perform your best"
+		},
+		{
+			"Service": "Animal Care",
+			"Id": "animal-care",
+			"Url": "/animal-care-services",
+			"Desc": "Equine and pet healing through massage, laser, and whole-body evaluation and treatment"
+		},
+		{
+			"Service": "Clinics",
+			"Id": "clinics",
+			"Url": "/categories/clinics",
+			"Desc": "Learn how to treat yourself or your animal with comprehensive training in BodyKeads methods"
+		},
+		{
+			"Service": "Events",
+			"Id": "events",
+			"Url": "/events",
+			"Desc": "Find out when the next Clinic will be held and register online!"
+		}
+	],
+	"About": [
+		{
+			"Color": "about-one",
+			"Title": "Bodywork",
+			"SubTitle": "Massage, Stretching, Laser"
+		},
+		{
+			"Color": "about-two",
+			"Title": "Energy Work",
+			"SubTitle": "Tong Ren, Nutrition, Taping"
+		},
+		{
+			"Color": "about-three",
+			"Title": "Recover From Injury",
+			"SubTitle": "Get back to work or play faster"
+		},
+		{
+			"Color": "about-four",
+			"Title": "Cope with Physical Challenges",
+			"SubTitle": "Be pain free"
+		}
+	],
+	"Testimonial": [
+		{
+			"Quote": "<p>Christine, thank you for your help communicating with mare “Wear My Ring”. She has been troubled by cribbing and has a sensitive digestive system.</p><p>Your advice to minimize grain, increase hay and in particular add “Ulcer Aid” as a supplement has increased her comfort dramatically. Her well being is of utmost importance to me and with your approach I was able to provide comfort and relief to her, which is a complete comfort to me.</p>",
+			"Person": "Jean",
+			"Company": "Frog Hollow Embroidery"
+		},
+		{
+			"Quote": "<p>Christine has been massaging me and my horses for over 10 years. She keeps us in working order so we can be at the top of our game at competition.</p><p>She has been an invaluable diagnostic tool with the horses in picking up on injuries before they have become a problem.</p><p>Christine was on the favorite persons list to my old Boston Terrier “Fat” . He suffered from back problems and arthritis. He would grunt and close his eyes while he was getting his massage. After she worked on him he would get up and act like a puppy again. Thank you Christine for all your good work on me and the gang.</p>",
+			"Person": "Adrienne Iorio",
+			"Company": "International competitor 3-day eventing"
+		},
+		{
+			"Quote": "<p>Christine Taylor has been working on my horses for at least seven years. Christine arrives every few weeks and gives an honest commentary on changes she sees in the horse.</p><p>Her fresh perspective is a great objective commentary on muscle development, shoeing issues or any other aspect that sometimes goes unnoticed in day to day contact. I am so happy that Christine continues to find the time to work on my horses. She is a valuable partner in my care of my horses.</p>",
+			"Person": "Ros Smythe",
+			"Company": "Adult Amateur Jumping, Round Lot Farm"
+		}
+	]
+}

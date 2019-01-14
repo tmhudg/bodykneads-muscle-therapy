@@ -1,0 +1,36 @@
+<div id="about" class="mt-5 pt-5">
+	
+	<div class="row mt-5">
+
+		<div class="col-lg-12 text-center">
+			<div class=" ">
+			<h2>About Bodykneads</h2>
+			<div class="subtitle">BodyKneads Muscle Therapy is an integrated approach to bodywork for people and animals</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+	    <div class="row pt-5">
+	    	<div class="col-lg-6">
+	    		<div class="text-right about-focus">
+	    			My focus: educate and relieve physical pain and movement disfunction.
+	    		</div>
+	    	</div>
+	    	<div class="col-6 mx-auto">
+	            <% for (var index in site.data.bodykneads.About) {
+		            var obj = site.data.bodykneads.About[index]
+				%>
+				<div class="about-item clearfix mb-3">
+					<div class="about-pct left mx-2 <%- obj.Color %>">
+					100
+					</div>
+					<div class="about-head">
+						<%= obj.Title %>
+					</div>
+					<p><%= obj.SubTitle %></p>
+				</div>
+				<% } %>
+	    	</div>
+		</div>
+	</div>
+</div>

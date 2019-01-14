@@ -1,0 +1,158 @@
+@import "nib"
+@import "_variables"
+
+//global-reset()
+
+input, button
+  margin: 0
+  padding: 0
+  &::-moz-focus-inner
+    border: 0
+    padding: 0
+
+a:hover
+  text-decoration: none
+  font-weight: 400
+  
+
+html, body, #container
+  height: 100%
+
+body
+  background: color-background
+  font: font-size font-sans
+  -webkit-text-size-adjust: 100%
+  font-weight: 300
+  line-height: 1.68
+  padding-top: 70px
+    
+h1, h2
+  font-weight: 300
+  font-size: 50px
+//  border-bottom: solid 1px color-grey
+
+h2
+  font-size: 40px
+  
+.h1-header
+  margin-top: 15px
+  margin-bottom: 15px
+  
+.h2
+  color: white
+  font-weight: 300
+  font-size: 40px
+
+.h3
+  font-weight: 300
+  
+.first-section
+  padding-top: 87px
+  @media mq-normal
+    min-height: 1000px
+
+.left, .alignleft
+  float: left
+
+.right, .alignright
+  float: right
+
+#container
+  position: relative
+
+.mobile-nav-on
+  overflow: hidden
+
+section.main-body
+  margin-top: 1.5rem
+  
+.btn
+  background-color: color-mccall
+  color: white
+
+.tranz-btn
+  padding-bottom: 1.5rem
+  padding-top: 1.5rem
+  font-size: 1.5rem
+  white-space: normal
+  
+.tranz-card-icon-box
+  background-color: white
+  height: 75px
+  width: 75px
+  border-radius: 50%
+  text-align: center
+  vertical-align: bottom
+  padding-top: 9px
+  margin-bottom: 30px
+  border: solid 5px white
+  
+.tranz-card-icon
+  color: color-mccall
+  align: center
+      
+.card-body:hover .tranz-card-icon
+  color: white
+
+.card
+  background-color: color-mccall
+  margin-bottom: 20px
+  margin-right: 0
+  margin-left: 5px
+
+    
+.card-body
+  padding-top: 3.25rem
+  padding-left: 0
+  padding-right: 0
+  
+.card-body a
+  color: black
+
+.card-body a:hover
+  color: white
+  
+.card-body:hover .h3
+  color: white
+  text-decoration: none
+
+.card-body:hover .tranz-card-icon-box
+  color: white
+  background-color: color-mccall
+  border: solid white 5px
+  
+
+.card h2
+  font-size: 2.3rem
+  color: white
+  
+h2.tranz-deck-title
+  color: black
+
+h2.tranz-deck-title:hover
+  color: white
+  
+
+.faq-btn
+  padding: .15rem .4rem
+  margin-right: 1rem
+
+.faq-btn:focus
+  text-decoration: none
+  box-shadow: none
+
+.faq-link, .faq-link:hover, .faq-link:visited, .faq-link:active
+  color: black
+  font-weight: 400
+  text-decoration: none
+
+.faq-body
+  padding-left: 2rem
+  
+@import "_extend"
+@import "_partial/header"
+@import "_partial/services"
+@import "_partial/about"
+@import "_partial/testimonial"
+@import "_partial/footer"
+@import "_partial/mobile"

@@ -1,0 +1,40 @@
+# Header
+menu:
+  Home: /
+  Animal Care Services: /animal-care-services
+  Human Care Services: /human-care-services
+  Clinics: /categories/clinics
+  Events: /events
+
+   
+rss: 
+
+# Content
+excerpt_link: Read More
+fancybox: false
+
+# Sidebar
+sidebar: 
+widgets:
+- category
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# widget behavior
+archive_type: 'monthly'
+show_count: false
+
+# Miscellaneous
+google_analytics:
+gauges_analytics:
+favicon:
+twitter: 
+google_plus:
+fb_admins:
+fb_app_id:
+
+subtitle: Sub Title

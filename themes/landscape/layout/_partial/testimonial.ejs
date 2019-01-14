@@ -1,0 +1,32 @@
+<div id="testim" class="pt-5">
+	
+	<div class="row mt-5">
+
+		<div class="col-lg-12 text-center">
+			<div class=" ">
+			<h2>Testimonials</h2>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+	    <div class="row pt-5">
+            <% for (var index in site.data.bodykneads.Testimonial) {
+	            var obj = site.data.bodykneads.Testimonial[index]
+			%>
+	    	<div class="testim-item col-lg-4 mx-auto">
+				<div class="card">
+					<div class="testim-quote">
+						<i class="fas fa-quote-left"></i><%- obj.Quote %>
+					</div>
+					<div class="font-weight-bold">
+						<%= obj.Person %>
+					</div>
+					<div class="company">
+						<p><%= obj.Company %></p>
+					</div>
+				</div>
+	    	</div>
+			<% } %>
+		</div>
+	</div>
+</div>
